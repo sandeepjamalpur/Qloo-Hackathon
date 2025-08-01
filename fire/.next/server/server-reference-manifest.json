@@ -1,0 +1,150 @@
+{
+  "node": {
+    "408b8a04686bf41b2f4ba723d47a32f146645d3b05": {
+      "workers": {
+        "app/signup/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/login/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%7B%22id%22%3A%22403377feb2c5005fa3e709a5002f753705dec8d096%22%2C%22exportedName%22%3A%22answerFoodQuestion%22%7D%2C%7B%22id%22%3A%22405e4c8d0e7ba5da7fd1b62ee1c09df135f039ae53%22%2C%22exportedName%22%3A%22generateInitialRecommendations%22%7D%2C%7B%22id%22%3A%22406b29e23c0f518e37d54a5acd69f7cfad7113e361%22%2C%22exportedName%22%3A%22unifiedSearch%22%7D%2C%7B%22id%22%3A%2240c88f30f9e1c12c92209ce80aa1599b57c5aaca81%22%2C%22exportedName%22%3A%22getTransportOptions%22%7D%2C%7B%22id%22%3A%2240e19d84229fe3057a4773b4414ca4b0091907b4c2%22%2C%22exportedName%22%3A%22generateImage%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fai%2Fflows%2Fsummarize-cultural-item.ts%22%2C%5B%7B%22id%22%3A%224092c91d573cb6d9aee041159ebc2896668096b035%22%2C%22exportedName%22%3A%22summarizeCulturalItem%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/signup/page": "action-browser",
+        "app/login/page": "action-browser",
+        "app/page": "action-browser",
+        "app/_not-found/page": "action-browser"
+      }
+    },
+    "609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b": {
+      "workers": {
+        "app/signup/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/login/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%7B%22id%22%3A%22403377feb2c5005fa3e709a5002f753705dec8d096%22%2C%22exportedName%22%3A%22answerFoodQuestion%22%7D%2C%7B%22id%22%3A%22405e4c8d0e7ba5da7fd1b62ee1c09df135f039ae53%22%2C%22exportedName%22%3A%22generateInitialRecommendations%22%7D%2C%7B%22id%22%3A%22406b29e23c0f518e37d54a5acd69f7cfad7113e361%22%2C%22exportedName%22%3A%22unifiedSearch%22%7D%2C%7B%22id%22%3A%2240c88f30f9e1c12c92209ce80aa1599b57c5aaca81%22%2C%22exportedName%22%3A%22getTransportOptions%22%7D%2C%7B%22id%22%3A%2240e19d84229fe3057a4773b4414ca4b0091907b4c2%22%2C%22exportedName%22%3A%22generateImage%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fai%2Fflows%2Fsummarize-cultural-item.ts%22%2C%5B%7B%22id%22%3A%224092c91d573cb6d9aee041159ebc2896668096b035%22%2C%22exportedName%22%3A%22summarizeCulturalItem%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/signup/page": "action-browser",
+        "app/login/page": "action-browser",
+        "app/page": "action-browser",
+        "app/_not-found/page": "action-browser"
+      }
+    },
+    "60ce5782783d2c49efbe01e1e5de26333d238d5acb": {
+      "workers": {
+        "app/signup/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/login/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%7B%22id%22%3A%22403377feb2c5005fa3e709a5002f753705dec8d096%22%2C%22exportedName%22%3A%22answerFoodQuestion%22%7D%2C%7B%22id%22%3A%22405e4c8d0e7ba5da7fd1b62ee1c09df135f039ae53%22%2C%22exportedName%22%3A%22generateInitialRecommendations%22%7D%2C%7B%22id%22%3A%22406b29e23c0f518e37d54a5acd69f7cfad7113e361%22%2C%22exportedName%22%3A%22unifiedSearch%22%7D%2C%7B%22id%22%3A%2240c88f30f9e1c12c92209ce80aa1599b57c5aaca81%22%2C%22exportedName%22%3A%22getTransportOptions%22%7D%2C%7B%22id%22%3A%2240e19d84229fe3057a4773b4414ca4b0091907b4c2%22%2C%22exportedName%22%3A%22generateImage%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fai%2Fflows%2Fsummarize-cultural-item.ts%22%2C%5B%7B%22id%22%3A%224092c91d573cb6d9aee041159ebc2896668096b035%22%2C%22exportedName%22%3A%22summarizeCulturalItem%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/signup/page": "action-browser",
+        "app/login/page": "action-browser",
+        "app/page": "action-browser",
+        "app/_not-found/page": "action-browser"
+      }
+    },
+    "403377feb2c5005fa3e709a5002f753705dec8d096": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%7B%22id%22%3A%22403377feb2c5005fa3e709a5002f753705dec8d096%22%2C%22exportedName%22%3A%22answerFoodQuestion%22%7D%2C%7B%22id%22%3A%22405e4c8d0e7ba5da7fd1b62ee1c09df135f039ae53%22%2C%22exportedName%22%3A%22generateInitialRecommendations%22%7D%2C%7B%22id%22%3A%22406b29e23c0f518e37d54a5acd69f7cfad7113e361%22%2C%22exportedName%22%3A%22unifiedSearch%22%7D%2C%7B%22id%22%3A%2240c88f30f9e1c12c92209ce80aa1599b57c5aaca81%22%2C%22exportedName%22%3A%22getTransportOptions%22%7D%2C%7B%22id%22%3A%2240e19d84229fe3057a4773b4414ca4b0091907b4c2%22%2C%22exportedName%22%3A%22generateImage%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fai%2Fflows%2Fsummarize-cultural-item.ts%22%2C%5B%7B%22id%22%3A%224092c91d573cb6d9aee041159ebc2896668096b035%22%2C%22exportedName%22%3A%22summarizeCulturalItem%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "405e4c8d0e7ba5da7fd1b62ee1c09df135f039ae53": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%7B%22id%22%3A%22403377feb2c5005fa3e709a5002f753705dec8d096%22%2C%22exportedName%22%3A%22answerFoodQuestion%22%7D%2C%7B%22id%22%3A%22405e4c8d0e7ba5da7fd1b62ee1c09df135f039ae53%22%2C%22exportedName%22%3A%22generateInitialRecommendations%22%7D%2C%7B%22id%22%3A%22406b29e23c0f518e37d54a5acd69f7cfad7113e361%22%2C%22exportedName%22%3A%22unifiedSearch%22%7D%2C%7B%22id%22%3A%2240c88f30f9e1c12c92209ce80aa1599b57c5aaca81%22%2C%22exportedName%22%3A%22getTransportOptions%22%7D%2C%7B%22id%22%3A%2240e19d84229fe3057a4773b4414ca4b0091907b4c2%22%2C%22exportedName%22%3A%22generateImage%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fai%2Fflows%2Fsummarize-cultural-item.ts%22%2C%5B%7B%22id%22%3A%224092c91d573cb6d9aee041159ebc2896668096b035%22%2C%22exportedName%22%3A%22summarizeCulturalItem%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "406b29e23c0f518e37d54a5acd69f7cfad7113e361": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%7B%22id%22%3A%22403377feb2c5005fa3e709a5002f753705dec8d096%22%2C%22exportedName%22%3A%22answerFoodQuestion%22%7D%2C%7B%22id%22%3A%22405e4c8d0e7ba5da7fd1b62ee1c09df135f039ae53%22%2C%22exportedName%22%3A%22generateInitialRecommendations%22%7D%2C%7B%22id%22%3A%22406b29e23c0f518e37d54a5acd69f7cfad7113e361%22%2C%22exportedName%22%3A%22unifiedSearch%22%7D%2C%7B%22id%22%3A%2240c88f30f9e1c12c92209ce80aa1599b57c5aaca81%22%2C%22exportedName%22%3A%22getTransportOptions%22%7D%2C%7B%22id%22%3A%2240e19d84229fe3057a4773b4414ca4b0091907b4c2%22%2C%22exportedName%22%3A%22generateImage%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fai%2Fflows%2Fsummarize-cultural-item.ts%22%2C%5B%7B%22id%22%3A%224092c91d573cb6d9aee041159ebc2896668096b035%22%2C%22exportedName%22%3A%22summarizeCulturalItem%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "40c88f30f9e1c12c92209ce80aa1599b57c5aaca81": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%7B%22id%22%3A%22403377feb2c5005fa3e709a5002f753705dec8d096%22%2C%22exportedName%22%3A%22answerFoodQuestion%22%7D%2C%7B%22id%22%3A%22405e4c8d0e7ba5da7fd1b62ee1c09df135f039ae53%22%2C%22exportedName%22%3A%22generateInitialRecommendations%22%7D%2C%7B%22id%22%3A%22406b29e23c0f518e37d54a5acd69f7cfad7113e361%22%2C%22exportedName%22%3A%22unifiedSearch%22%7D%2C%7B%22id%22%3A%2240c88f30f9e1c12c92209ce80aa1599b57c5aaca81%22%2C%22exportedName%22%3A%22getTransportOptions%22%7D%2C%7B%22id%22%3A%2240e19d84229fe3057a4773b4414ca4b0091907b4c2%22%2C%22exportedName%22%3A%22generateImage%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fai%2Fflows%2Fsummarize-cultural-item.ts%22%2C%5B%7B%22id%22%3A%224092c91d573cb6d9aee041159ebc2896668096b035%22%2C%22exportedName%22%3A%22summarizeCulturalItem%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "40e19d84229fe3057a4773b4414ca4b0091907b4c2": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%7B%22id%22%3A%22403377feb2c5005fa3e709a5002f753705dec8d096%22%2C%22exportedName%22%3A%22answerFoodQuestion%22%7D%2C%7B%22id%22%3A%22405e4c8d0e7ba5da7fd1b62ee1c09df135f039ae53%22%2C%22exportedName%22%3A%22generateInitialRecommendations%22%7D%2C%7B%22id%22%3A%22406b29e23c0f518e37d54a5acd69f7cfad7113e361%22%2C%22exportedName%22%3A%22unifiedSearch%22%7D%2C%7B%22id%22%3A%2240c88f30f9e1c12c92209ce80aa1599b57c5aaca81%22%2C%22exportedName%22%3A%22getTransportOptions%22%7D%2C%7B%22id%22%3A%2240e19d84229fe3057a4773b4414ca4b0091907b4c2%22%2C%22exportedName%22%3A%22generateImage%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fai%2Fflows%2Fsummarize-cultural-item.ts%22%2C%5B%7B%22id%22%3A%224092c91d573cb6d9aee041159ebc2896668096b035%22%2C%22exportedName%22%3A%22summarizeCulturalItem%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "4092c91d573cb6d9aee041159ebc2896668096b035": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fservices%2Fsupabase.ts%22%2C%5B%7B%22id%22%3A%22408b8a04686bf41b2f4ba723d47a32f146645d3b05%22%2C%22exportedName%22%3A%22getUserProfile%22%7D%2C%7B%22id%22%3A%22609fa3a8f8aa5cdfaee77e166ffb0475f06b37ef4b%22%2C%22exportedName%22%3A%22createUserProfile%22%7D%2C%7B%22id%22%3A%2260ce5782783d2c49efbe01e1e5de26333d238d5acb%22%2C%22exportedName%22%3A%22uploadImageFromUrl%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%7B%22id%22%3A%22403377feb2c5005fa3e709a5002f753705dec8d096%22%2C%22exportedName%22%3A%22answerFoodQuestion%22%7D%2C%7B%22id%22%3A%22405e4c8d0e7ba5da7fd1b62ee1c09df135f039ae53%22%2C%22exportedName%22%3A%22generateInitialRecommendations%22%7D%2C%7B%22id%22%3A%22406b29e23c0f518e37d54a5acd69f7cfad7113e361%22%2C%22exportedName%22%3A%22unifiedSearch%22%7D%2C%7B%22id%22%3A%2240c88f30f9e1c12c92209ce80aa1599b57c5aaca81%22%2C%22exportedName%22%3A%22getTransportOptions%22%7D%2C%7B%22id%22%3A%2240e19d84229fe3057a4773b4414ca4b0091907b4c2%22%2C%22exportedName%22%3A%22generateImage%22%7D%5D%5D%2C%5B%22%2Fhome%2Fuser%2Fstudio%2Fsrc%2Fai%2Fflows%2Fsummarize-cultural-item.ts%22%2C%5B%7B%22id%22%3A%224092c91d573cb6d9aee041159ebc2896668096b035%22%2C%22exportedName%22%3A%22summarizeCulturalItem%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "2auBrUROH5n8FycODZtUfj7/TjlBYrXILmukGqWmhnk="
+}
