@@ -147,3 +147,6 @@ The application's AI capabilities are powered by Genkit flows located in `ai/flo
 - **`get-recipe.ts`**: Fetches a detailed recipe for a given food dish using the Hugging Face QA model for precise, context-based answers.
 - **`generate-image-url.ts`**: A dedicated flow that uses Gemini to generate a high-quality, artistic image for a given cultural query.
 - **`answer-food-question.ts`**: Uses the Hugging Face question-answering model to provide specific answers to user questions about food, using a predefined context of food items.
+  improvement
+  still we working on this website it may sometimes occurs errors.
+Note :  The images which you see sometime may be wrong due to Ai Generation.After 8 searches you need to login. 
