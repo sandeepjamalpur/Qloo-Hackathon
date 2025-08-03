@@ -54,15 +54,8 @@ const allIndianStates = [
     { value: 'Lakshadweep', label: 'Lakshadweep' },
     { value: 'Puducherry', label: 'Puducherry' },
 ];
-export function FestivalSearch({ onSearch, loading }: FestivalSearchProps) {
-  const [query, setQuery] = useState('');
-  const [place, setPlace] = useState('all');
-  const { toast } = useToast();
-  const [isListening, setIsListening] = useState(false);
-  const recognitionRef = useRef<any>(null);
-  const { handleSearchAttempt } = useSearch();
 
- export function FestivalSearch({ onSearch, loading }: FestivalSearchProps) {
+export function FestivalSearch({ onSearch, loading }: FestivalSearchProps) {
   const [query, setQuery] = useState('');
   const [place, setPlace] = useState('all');
   const { toast } = useToast();
@@ -113,7 +106,6 @@ export function FestivalSearch({ onSearch, loading }: FestivalSearchProps) {
       }
     }
   }, [toast]);
-
 
   const handleVoiceSearch = () => {
       if (!handleSearchAttempt()) return;
