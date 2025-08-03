@@ -54,7 +54,6 @@ const allIndianStates = [
     { value: 'Lakshadweep', label: 'Lakshadweep' },
     { value: 'Puducherry', label: 'Puducherry' },
 ];
-
 export function FestivalSearch({ onSearch, loading }: FestivalSearchProps) {
   const [query, setQuery] = useState('');
   const [place, setPlace] = useState('all');
