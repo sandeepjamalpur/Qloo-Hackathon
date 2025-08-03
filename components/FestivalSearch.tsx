@@ -62,6 +62,14 @@ export function FestivalSearch({ onSearch, loading }: FestivalSearchProps) {
   const recognitionRef = useRef<any>(null);
   const { handleSearchAttempt } = useSearch();
 
+ export function FestivalSearch({ onSearch, loading }: FestivalSearchProps) {
+  const [query, setQuery] = useState('');
+  const [place, setPlace] = useState('all');
+  const { toast } = useToast();
+  const [isListening, setIsListening] = useState(false);
+  const recognitionRef = useRef<any>(null);
+  const { handleSearchAttempt } = useSearch();
+
   useEffect(() => {
     // Ensure this runs only on the client
     if (typeof window !== 'undefined') {
@@ -105,6 +113,7 @@ export function FestivalSearch({ onSearch, loading }: FestivalSearchProps) {
       }
     }
   }, [toast]);
+
 
   const handleVoiceSearch = () => {
       if (!handleSearchAttempt()) return;
