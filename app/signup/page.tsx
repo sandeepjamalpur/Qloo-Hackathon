@@ -69,7 +69,12 @@ export default function SignupPage() {
       });
       setLoading(false);
     } else {
-      router.push(`/create-profile?name=${encodeURIComponent(name)}`);
+      // Redirect to homepage after successful signup
+      toast({
+        title: 'Signup Successful!',
+        description: "Welcome to KALA! You're ready to explore.",
+      });
+      router.push('/');
     }
   };
 
