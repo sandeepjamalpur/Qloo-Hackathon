@@ -75,15 +75,9 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         const currentUser = session?.user ?? null;
         setUser(currentUser);
         if (currentUser) {
-            const profile = await getUserProfile(currentUser.id);
-            const hasProfile = !!profile;
-            setProfileExists(hasProfile);
-            if (event === 'SIGNED_IN' && pathname !== '/create-profile') {
-                if (hasProfile) {
-                    router.push('/');
-                } else {
-                    router.push('/create-profile');
-                }
+            setProfileExists(true); // Assume profile exists if logged in, as we removed creation step
+            if (event === 'SIGNED_IN') {
+                router.push('/');
             }
         } else {
             setProfileExists(false);
