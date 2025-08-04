@@ -74,6 +74,8 @@ export default function LoginPage() {
         description: error.message,
       });
       setLoading(false);
+    } else {
+        router.push('/');
     }
   };
 
