@@ -26,7 +26,7 @@ export function AppLayout({ children }: { children: ReactNode }) {
   const isHomePage = pathname === '/';
   const { user, logout } = useAuth();
   
-  const isAuthPage = pathname === '/login' || pathname === '/signup' || pathname === '/create-profile' || pathname === '/forgot-password';
+  const isAuthPage = pathname === '/login' || pathname === '/signup' || pathname === '/forgot-password';
 
   const visibleNavItems = navItems.filter(item => item.public || (!item.public && user));
 
