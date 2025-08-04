@@ -1,3 +1,4 @@
+
 'use client';
 
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
@@ -5,7 +6,6 @@ import type { SupabaseClient, User } from '@supabase/supabase-js';
 import { useRouter, usePathname } from 'next/navigation';
 import { Loader2 } from 'lucide-react';
 import { createSupabaseBrowserClient } from '@/lib/supabase';
-import { getUserProfile } from '@/services/supabase';
 import { useToast } from '@/hooks/use-toast';
 
 const ADMIN_EMAIL = 'admin@kala.com';
@@ -15,7 +15,6 @@ interface AuthContextType {
   user: User | null;
   supabase: SupabaseClient | null;
   loading: boolean;
-  profileExists: boolean | null;
   login: (email: string, pass: string) => Promise<any>;
   signup: (email: string, pass: string) => Promise<any>;
   loginWithGoogle: () => Promise<any>;
@@ -28,40 +27,33 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
   const [supabase] = useState(() => createSupabaseBrowserClient());
   const [loading, setLoading] = useState(true);
-  const [profileExists, setProfileExists] = useState<boolean | null>(null);
   const router = useRouter();
-  const pathname = usePathname();
   const { toast } = useToast();
   
   const isSupabaseConfigured = !!supabase;
 
   useEffect(() => {
-    // This effect should only run once on the client side.
     if (typeof window === 'undefined') {
         return;
     }
 
     try {
-      // Check for a local admin session first.
       const isAdminSession = sessionStorage.getItem('is-admin');
       if (isAdminSession === 'true') {
         setUser({ id: 'admin-user', email: ADMIN_EMAIL, app_metadata: {}, aud: 'authenticated' } as User);
-        setProfileExists(true);
         setLoading(false);
-        // Check if we should show the admin login toast
         if (sessionStorage.getItem('show-admin-toast') === 'true') {
             toast({
               title: 'You have successfully logged in',
             });
             sessionStorage.removeItem('show-admin-toast');
         }
-        return; // Stop further execution to prevent Supabase check
+        return;
       }
     } catch (e) {
       console.warn("Session storage not available. Admin check skipped.");
     }
     
-    // If not admin, proceed with Supabase auth
     if (!isSupabaseConfigured) {
         setLoading(false);
         return;
@@ -72,16 +64,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     } = supabase.auth.onAuthStateChange(async (event, session) => {
         const currentUser = session?.user ?? null;
         setUser(currentUser);
-        if (currentUser) {
-            const profile = await getUserProfile(currentUser.id);
-            const hasProfile = !!profile;
-            setProfileExists(hasProfile);
-            const isAuthPage = pathname === '/create-profile' || pathname === '/signup';
-            if (!hasProfile && !isAuthPage) {
-                router.push('/create-profile');
-            }
-        } else {
-            setProfileExists(false);
+        if (event === 'SIGNED_IN') {
+            router.push('/');
         }
         setLoading(false);
     });
@@ -89,7 +73,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     return () => {
       subscription?.unsubscribe();
     };
-  }, [router, isSupabaseConfigured, supabase, pathname, toast]);
+  }, [router, isSupabaseConfigured, supabase, toast]);
 
   const login = async (email: string, pass: string) => {
     if (!isSupabaseConfigured) throw new Error("Supabase not configured. Have you configured your .env file?");
@@ -112,7 +96,6 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   };
 
   const logout = async () => {
-    // Clear local admin session if it exists
     try {
       sessionStorage.removeItem('is-admin');
       sessionStorage.removeItem('show-admin-toast');
@@ -120,15 +103,11 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       console.warn("Session storage not available for admin logout.");
     }
     
-    // Sign out from Supabase if it's configured and was used
     if (isSupabaseConfigured && supabase) {
       await supabase.auth.signOut();
     }
     
-    // Reset state and redirect
     setUser(null);
-    setProfileExists(false);
-    // Use window.location to force a full reload after logout
     window.location.href = '/login';
   };
 
@@ -136,7 +115,6 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     user,
     supabase,
     loading,
-    profileExists,
     login,
     signup,
     loginWithGoogle,
